@@ -1,4 +1,4 @@
-name: Find Job Id
+name: Get Job Id
 on:
   push:
     branches: [ main ]
