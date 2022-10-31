@@ -11,6 +11,9 @@ cd sample-container-todo-app-java-maven
 java -jar target/*.jar
 ```
 
+
+
+
 You can then access todo app here: http://localhost:8080/
 
 
