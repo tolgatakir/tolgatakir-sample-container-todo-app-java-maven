@@ -84,6 +84,7 @@ class TodoServiceTest {
         assertThrows(EntityNotFoundException.class, () -> service.duplicateTodo(1L));
     }
 
+    
     @Test
     void testDuplicateTodo() {
         TodoEntity expected = new TodoEntity(1L, "Test", true);
