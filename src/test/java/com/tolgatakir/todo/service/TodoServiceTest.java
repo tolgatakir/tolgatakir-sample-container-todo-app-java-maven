@@ -33,7 +33,6 @@ class TodoServiceTest {
     @Mock
     TodoRepository repository;
 
-
     @Test
     void testFindTodos() {
         List<TodoEntity> expected = Arrays.asList(new TodoEntity(1L, "Test-1", true),
