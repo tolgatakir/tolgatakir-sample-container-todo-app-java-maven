@@ -21,6 +21,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.when;
 
+
 /**
  * @author tolgatakir
  */
@@ -32,7 +33,6 @@ class TodoServiceTest {
 
     @Mock
     TodoRepository repository;
-
 
     @Test
     void testFindTodos() {
@@ -85,6 +85,7 @@ class TodoServiceTest {
         assertThrows(EntityNotFoundException.class, () -> service.duplicateTodo(1L));
     }
 
+    
     @Test
     void testDuplicateTodo() {
         TodoEntity expected = new TodoEntity(1L, "Test", true);
